@@ -10,23 +10,23 @@
     //     display the appropriate error message using document.write().
     // 4.    Keep asking the user for a valid email until they enter a correct one.
 
-// let emailError = document.querySelectorAll('.emailError');
+let emailErr = document.querySelectorAll('.emailError');
 
-// let email;
-// do {
-//     email = prompt("Enter your email:");
+let email;
+do {
+    email = prompt("Enter your email:");
 
-//     if (!email) {
-//         emailError.innerText("Error: Email cannot be empty.<br>");
-//     } else if (email.indexOf('@') === -1) {
-//         emailError.innerText = 'It must contain @.';
-//     } else if (email.charAt(0) === '@') {
-//         emailError.innerText = "Error: '@' cannot be at the beginning.<br>";
-//     } else if (email.slice(-1) === '@') {
-//         emailError.innerText = "Error: '@' cannot be at the end.<br>";
-//     } else if (email.length <= 5) {
-//         emailError.innerText = "Error: Email length must be greater than 5 characters.<br>";
-//     } else {
-//         break;
-//     }
-// } while (true);
+    if (!email) {
+        emailErr.innerText("Error: Email cannot be empty.<br>");
+    } else if (email.indexOf('@') === -1) {
+        emailErr.innerText = 'It must contain @.';
+    } else if (email.charAt(0) === '@') {
+        emailErr.innerText = "Error: '@' cannot be at the beginning.<br>";
+    } else if (email.slice(-1) === '@') {
+        emailErr.innerText = "Error: '@' cannot be at the end.<br>";
+    } else if (email.length <= 5) {
+        emailErr.innerText = "Error: Email length must be greater than 5 characters.<br>";
+    } else {
+        break;
+    }
+} while (true);
