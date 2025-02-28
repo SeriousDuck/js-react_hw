@@ -158,25 +158,25 @@
 
 //? hw-13
 
-const sports = [
-    ['skier', '⛷'],
-    ['snowboarder', '🏂'],
-    ['apple', '🍎'],
-    ['hockey', '🏒'],
-    ['ice skate', '⛸'],
-    ['swimmer', '🏊'],
-    ['surfer', '🏄‍'],
-    ['watermelon', '🍉'],
-    ['lemon', '🍋'],
-    ['rowboat', '🚣'],
-    ['bicyclist', '🚴‍']
-];
+// const sports = [
+//     ['skier', '⛷'],
+//     ['snowboarder', '🏂'],
+//     ['apple', '🍎'],
+//     ['hockey', '🏒'],
+//     ['ice skate', '⛸'],
+//     ['swimmer', '🏊'],
+//     ['surfer', '🏄‍'],
+//     ['watermelon', '🍉'],
+//     ['lemon', '🍋'],
+//     ['rowboat', '🚣'],
+//     ['bicyclist', '🚴‍']
+// ];
 
 
-const winter_sports = sports.slice(0, 2).concat(sports.slice(3, 5));
-const summer_sports = sports.slice(5, 7).concat(sports.slice(-2));
-const fruits = sports.slice(2, 3).concat(sports.slice(7, -2));
+// const winter_sports = sports.slice(0, 2).concat(sports.slice(3, 5));
+// const summer_sports = sports.slice(5, 7).concat(sports.slice(-2));
+// const fruits = sports.slice(2, 3).concat(sports.slice(7, -2));
 
-console.log(winter_sports);
-console.log(summer_sports);
-console.log(fruits);
+// console.log(winter_sports);
+// console.log(summer_sports);
+// console.log(fruits);
