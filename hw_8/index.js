@@ -51,12 +51,15 @@ function deepClone (arr) {
             cloneArr.push(arr[i]);
         }
     }
-    return arr;
+    return cloneArr;
     // console.log(cloneArr);
+
 }
 
-// arr = deepClone(array);
-const clonedArray = deepClone(array);
+const copiedArr = deepClone(array);
 
-console.log(clonedArray); // Should return a full deep copy of `array`
-console.log(clonedArray  === array); // Should be false (ensuring a new copy is created)
+// array[1][1] = 11111;
+
+console.log(copiedArr); // Should return a full deep copy of `array`
+console.log(copiedArr  === array); // Should be false (ensuring a new copy is created)
+// console.log(array);
