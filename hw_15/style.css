@@ -1,0 +1,11 @@
+.wrapper {
+    height: 100vh;
+    /* background-color: #000; */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 40px;
+}
